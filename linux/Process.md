@@ -39,3 +39,5 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 * refresh itself in 2-3 seconds interval (by default)
 
 ## File Operations : 
+
+## Text Editors : 
