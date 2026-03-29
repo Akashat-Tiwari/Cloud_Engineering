@@ -40,4 +40,30 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 
 ## File Operations : 
 
+* creating (also editing) a file without editor : using echo
+
+* echo lineOne > filename : remove older content and insert lineOne (if file not exists then it will create it as well)
+
+* echo lineTwo >> filename : append the content without deleting older one 
+
 ## Text Editors : 
+
+* nano : a simple text based editor
+
+* gedit : a simple graphical editor
+
+* vi and emacs : advanced text based editor and graphical editor
+
+### nano : 
+
+* to open a file : nano filename (will create if not exists)
+
+* to save : ctrl + x
+
+* to compile (on main terminal) : gcc filename
+
+* to print output : ./a.out
+
+* to print file : cat filename
+
+* 
