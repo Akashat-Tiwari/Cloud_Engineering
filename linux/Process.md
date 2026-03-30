@@ -66,4 +66,30 @@ TiD : Thread ID number, same as Pid if process is single-threaded. For multi thr
 
 * to print file : cat filename
 
-* 
+### vi (or latest : Vim ie. Vi improved): 
+
+* vi myfile : start the editor and edit myfile
+
+* :r file2 : read in file2 and insert at current position
+
+* :w : write to file2
+
+* :w myfile: write out to myfile
+
+* :w! file2 : overwrite file2
+
+* :x : exit
+
+* :q : quit
+
+* :q! : quit even though modifications have not been saved
+
+* {important} :wq : exit vi and save the file
+
+### modes in vi : 
+
+* by default :  command mode
+
+* type i to enter insert mode (used to insert content) and esc to return back to command mode
+
+* type : to enter line mode (each key is an external command) and esc to return back to command mode
