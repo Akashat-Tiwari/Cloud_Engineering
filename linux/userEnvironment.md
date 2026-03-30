@@ -30,4 +30,8 @@
  
 * ctrl + U : deletes from the beginning of line to the cursor position
 
-* ctrl + E : goes to the end of the line    
+* ctrl + E : goes to the end of the line
+
+### Manipulating Text :
+
+* 
