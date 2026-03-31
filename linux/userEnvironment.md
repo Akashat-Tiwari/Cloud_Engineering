@@ -34,4 +34,31 @@
 
 ### Manipulating Text :
 
+* cat fileName : often used to read and print file (simply means viewing file contents)
+
+* cat file1 file2 : used to concatenate multiple files and display the output (content of first followed by second)
+
+* cat file1 file2 > file3 : concatenate multiple files and send it to new file3
+
+
+* tac filename : display the file in reverse order means line is exactly same but the order is reversed (ending line to starting line)
+
+* tac file1 file2 : first file then second but reverse order
+
+* less file1 or cat file1 | less : opening a large file directly in editor will cause issues due to high memory utilization, instead , use less file1 to open file page by page without entire file in memory before starting
+
+* sed and awk is used to manipulate data files
+
+### file manipulation utilities :
+
+* sort file1 : sort the lines in the specified file, according to the characters at the beginning of each line
+
+* uniq :
+
+* paste :
+
+* join :
+
+* split :
+
 * 
