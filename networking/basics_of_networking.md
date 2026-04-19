@@ -43,6 +43,14 @@ Cisco Packet Tracer is a network simulation tool used to design, configure, and 
 
 ## Limitations
 - Limited real-world accuracy  
-- Not all protocols supported  
+- Not all protocols supported
+
+# How End devices communicate
+
+PC1 -> switches -> router -> fireWall -> ModeM -> (LAN -> WAN) ie Internet -> ModeM -> FireWall -> router -> switches -> PC2
+
+## switches : 
+
+
 
 
