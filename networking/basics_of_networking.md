@@ -49,7 +49,7 @@ Cisco Packet Tracer is a network simulation tool used to design, configure, and 
 
 PC1 -> switches -> router -> fireWall -> ModeM -> (LAN -> WAN) ie Internet -> ModeM -> FireWall -> router -> switches -> PC2
 
-## switches : 
+
 
 
 
