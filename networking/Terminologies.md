@@ -10,7 +10,21 @@
 
 * a switch is a layer 2 device , layer 3 is not involved in a switch
 
+* cli command for switch : show mac-address-table
+
 ### layer 1 : electrical cable   , layer 2 : mac address , layer 3 : IP address
 
-### cli command for switch : show mac-address-table
+## Routers : job is to connect different networks
+
+* layer 3 is also involved in routing
+
+* gateway is needed to connect between networks (in networking gateway is another term for router )
+
+* Different group of IP addresses ie. network1 = ip : 192.168.1.1 and network2 = ip : 192.168.2.1 , subnet mask can be same or different
+
+* you first connect each network to a separate router interface using appropriate cables. Then, each interface of the router must be configured with an IP address that belongs to the respective network, and the interfaces must be activated using the no shutdown command.
+
+* After configuring the router, all devices (PCs) in each network must be assigned IP addresses within their network range and, most importantly, a default gateway, which is the IP address of the router interface connected to their network. The router then receives data packets from one network, examines the destination IP address, and forwards the packets to the appropriate network through the correct interface.
+
+
   
