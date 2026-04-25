@@ -66,7 +66,7 @@
   
   User interacts (e.g., browser, email)
   Data is created
-  Example: HTTP request , PORT For HTTP : 480 , HTTPS : 443
+  Example: HTTP request 
 
 * 6. Presentation Layer
  
@@ -83,6 +83,11 @@
   Breaks data into segments (layer4 header) after encapculation of data
   Adds port numbers (TCP/UDP)
   Ensures reliable(TCP) or fast delivery(UDP)
+
+  * TCP (Transmission control Protocol) : RELIABLE, make sure data is sent , 3 way handshake : youtube->pc : (SYN)hello, pc ->youtube : (SYN,ACK)hey : youtube -> pc
+    : (ACK)test  , SYN : Synchronous , ACK : acknowledge 
+ 
+  * UDP (User Datagram Protocol) : FAST, when real time interaction is required like in streamiing and gaming is needed (after TCP when data trnasfer is reliable, protocol switches to UDP for fast transfer)
 
 * 3. Network Layer
   
@@ -103,4 +108,6 @@
      
   Converts data into bits (0s and 1s)
   Sends signals over cable/wireless
+
+* reverse process is called de- encapsulation (bottom to top)
   
