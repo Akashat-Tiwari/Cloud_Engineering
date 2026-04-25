@@ -63,35 +63,44 @@
 ### flow of data in 7 layers (Top to Bottom) : ENCAPSULATION
 
 * 7. Application Layer
+  
   User interacts (e.g., browser, email)
   Data is created
   Example: HTTP request , PORT For HTTP : 480 , HTTPS : 443
 
 * 6. Presentation Layer
+ 
   Data is formatted, encrypted, compressed
   Converts data into a standard format
 
 * 5. Session Layer
+  
   Establishes and manages communication session
   Starts and maintains connection
 
 * 4. Transport Layer
+ 
   Breaks data into segments (layer4 header) after encapculation of data
   Adds port numbers (TCP/UDP)
   Ensures reliable(TCP) or fast delivery(UDP)
 
 * 3. Network Layer
+  
   Adds IP addresses,and layer3 header : packets
   Determines destination and routing
 
 * 2. Data Link Layer
+     
   Adds MAC addresses
   Forms frames
   Handles physical addressing
 
-  * final look: [ L2 trailer | Data | L4 header | L3 header | L2 header ]
+  * final look:
+  
+     ` L2 trailer | Data | L4 header | L3 header | L2 header `
  
 * 1. Physical Layer
+     
   Converts data into bits (0s and 1s)
   Sends signals over cable/wireless
   
