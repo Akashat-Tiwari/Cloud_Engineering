@@ -16,4 +16,30 @@
   
 * 443 : HTTPS : HyperText Transfer Protocol Secure
 
-* UDP port 69 : TFTP : Trivial File Transfer Protocol  
+* UDP port 69 : TFTP : Trivial File Transfer Protocol
+
+## BAD networks : 
+
+* never have a "single point of failure" , if one breaks all disrupts
+
+* don't connect multiple switches, router->switch1->switch2->switch3 ; like a series connection
+  
+## GOOD networks :
+
+### 2-Tier Architecture :
+
+* use parallel connection : router1->switch1, router1->switch2, router1->switch3 (but not an ideal option for End-Devices communication)
+
+* best option is to use a multilayer switch (layer3) just after a router :
+
+* `Tier 2 called Distribution Layer` : It simply distributes the network (router and multilayer switch)  router -> multilayer_switch 
+
+* `Tier 1 called Access Layer` : components access the network (switches and End devices) multilayer_switch->switch1, multilayer_Switch->switch2, multilayer_Switch->switch3
+
+*  final network : router1-> multilayer_switch1 & multilayer_switch2 and router2-> multilayer_switch1 & multilayer_switch2 
+
+*  multilayer_switch1  <->  multilayer_switch2
+
+* multilayer_switch1 -> switch1 , switch2, switch3 and multilayer_switch2 -> switch1 , switch2, switch3
+
+* switch1 -> PC1,PC2 and switch2 -> PC3 , server1 and switch3 -> server2, server3  
