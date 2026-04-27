@@ -54,4 +54,16 @@
 
 ## Data Centre Networks : 
 
-* 
+* A data centre is a specialized facility used to store, manage, and process large amounts of digital data using servers, networking equipment, and storage systems.
+
+* North/South Network : Intenet <-> servers , East/West Network : Servers <-> Servers
+
+### `Spine - Leaf Design` of Data centre, specifically for East/West Network
+
+* ** predictable and reliable : 2 hops between any two east/west server
+
+* leaf Switches(access switches) and spine switches (distribution switches)
+
+* Each leaf switch is connected with every spine switch for faster network (connection between these switches is layer3 ie IP addresses are involved)
+
+* ALSO, Every leaf switch is connected with each spine switch
