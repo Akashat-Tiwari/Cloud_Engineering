@@ -42,4 +42,16 @@
 
 * multilayer_switch1 -> switch1 , switch2, switch3 and multilayer_switch2 -> switch1 , switch2, switch3
 
-* switch1 -> PC1,PC2 and switch2 -> PC3 , server1 and switch3 -> server2, server3  
+* switch1 -> PC1,PC2 and switch2 -> PC3 , server1 and switch3 -> server2, server3
+
+### 3-Tier Architecture : 
+
+* bottom 2 layers (distribution and access ) are exactly same as above final network
+
+* 1 more layer `Tier 3 called Core Layer` : FASTEST SWITCHING PATHS IN NETWORKS , Its the core switch Layer between router and distribution switches, manages alot traffic
+
+* final network : exactlty same as Tier2 : difference is 2 core switches between routers and distribution switches
+
+## Data Centre Networks : 
+
+* 
