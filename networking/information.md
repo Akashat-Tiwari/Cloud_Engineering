@@ -67,3 +67,5 @@
 * Each leaf switch is connected with every spine switch for faster network (connection between these switches is layer3 ie IP addresses are involved)
 
 * ALSO, Every leaf switch is connected with each spine switch
+
+* PE : Provider Edge router and CE : Customer Edge Router
