@@ -69,3 +69,12 @@
 * ALSO, Every leaf switch is connected with each spine switch
 
 * PE : Provider Edge router and CE : Customer Edge Router
+
+### Checking vulnerability of a network
+
+* sudo apt install nmap -y, then nmap -sT IP Address, also nmap -Pn IP Address
+
+### Hybrid - Cloud : 
+
+* 
+ 
