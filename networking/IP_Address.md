@@ -88,3 +88,19 @@
    * Router replaces your private IP with its public IP
    * Internet sends response back to router
    * Router sends data back to your device
+ 
+### IPv6 : 2^128 IP addresses possible  
+
+* IPv4: 32-bit addressing system with limited IPs, decimal format used 
+
+* IPv6: 128-bit addressing system designed to replace IPv4 with a large address space, hexadecimal format used
+
+### IP address matrix : Binary to decimal or vice-versa : 
+
+* IPv4 : 32 bits or 4 bytes
+
+* 11000000.10101000.00000001.00010101 : 192.168.1.21 (by binary to decimal conversion)
+
+* 172.16.34.3 : 10101100.00010000.00100010.00000011 (by decimal to binary conversion)
+
+ 
