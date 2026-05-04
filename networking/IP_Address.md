@@ -62,4 +62,29 @@
 
   * Not used in general networking
  
- * Range: 127.0.0.0 – 127.255.255.255 : It is reserved for loopback (localhost), Used by a computer to communicate with itself, commonly used 127.0.0.1 
+ * Range: 127.0.0.0 – 127.255.255.255 : It is reserved for loopback (localhost), Used by a computer to communicate with itself, commonly used 127.0.0.1
+
+### Private IP Addresses Vs Public IP Addresses :
+
+` Private IP Addresses and NAT are the cure for the lack of IP addresses issue `
+
+* Private IP Addresses : Private IP addresses are IPs used inside a local network (home, college, office) and are not directly accessible on the internet.
+
+* Ranges:
+   * class A : 10.0.0.0 – 10.255.255.255
+   * class B : 172.16.0.0 – 172.31.255.255
+   * class C : 192.168.0.0 – 192.168.255.255
+ 
+* Cannot communicate directly with the internet
+
+`NAT (Network Address Translation)`
+
+* NAT is a technique used by a router to convert private IP addresses into a public IP address so devices can access the internet.
+
+* How NAT Works :
+    
+   * Your device has a private IP (e.g., 192.168.1.10)
+   * You request a website
+   * Router replaces your private IP with its public IP
+   * Internet sends response back to router
+   * Router sends data back to your device
