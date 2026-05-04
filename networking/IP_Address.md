@@ -54,7 +54,7 @@
    Range: 224.0.0.0 – 239.255.255.255
    Use: Multicasting (sending data to multiple devices at once)
  
-  *  Not used for normal device addressing
+    *   Not used for normal device addressing
   
 * Class E
   Range: 240.0.0.0 – 255.255.255.255
