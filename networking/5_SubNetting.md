@@ -39,3 +39,7 @@
 * Common types include packet-filtering firewalls, stateful inspection firewalls, proxy firewalls, and next-generation firewalls that provide advanced features like intrusion detection and application-level filtering
 
 * Firewalls help protect systems from cyber threats such as hacking, malware, and unauthorized access, and are an essential component of network security.
+
+### DNS : 
+
+* 
