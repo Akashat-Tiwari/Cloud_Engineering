@@ -33,4 +33,16 @@
          * When traffic increases: New servers added automatically
          * When traffic decreases: Servers removed
   
+### How to configura a router from initial state (shutdown state) : 
 
+* commands :
+    * enable
+    * configure terminal
+
+    * interface gigabitEthernet0/0
+    * no shutdown
+
+    * interface gigabitEthernet0/1
+    * no shutdown
+
+    * exit
