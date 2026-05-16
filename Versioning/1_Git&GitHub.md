@@ -32,4 +32,9 @@
 
 # Git Workflow : 
 
-![WorkFlow]("C:\Users\akash\OneDrive\Pictures\Screenshots\Git_Workflow.png")
+<img width="300" height="250" alt="Git_Workflow" src="https://github.com/user-attachments/assets/ba6a99ea-59be-4ba8-a768-9689320c5b6e" />
+
+### Branching and Merging : 
+
+* Branching allows you to work on new features or bug fixes without affecting the main codebase. when ready, you can merge the new code into the main branch 
+
