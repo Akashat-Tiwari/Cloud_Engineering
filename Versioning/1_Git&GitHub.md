@@ -30,4 +30,6 @@
 
 * GitHub is a cloud-based platform that uses Git to help developers store, manage, track, and collaborate on software projects
 
-* 
+# Git Workflow : 
+
+![WorkFlow]("C:\Users\akash\OneDrive\Pictures\Screenshots\Git_Workflow.png")
